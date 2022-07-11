@@ -1,9 +1,9 @@
 {
-    "products": [
+    "hair": [
         {
             "id": 1,
             "name": "Rene Furterer Foritcea Shampoo",
-            "image": "",
+            "image": "https://static.thcdn.com/images/large/original//productimg/1600/1600/11843506-2414868195131341.jpg",
             "price": "$32.00"
             
         },
@@ -18,7 +18,10 @@
             "name": "Shu Uemura Essence Absolue",
             "image": "",
             "price": "$69.00"
-        },
+        }
+    ],
+
+    "skin": [
         {
             "id": 4,
             "name": "Bioelements Recovery Serum",
@@ -42,7 +45,10 @@
             "name": "Summer Fridays ShadeDrops Broad Spectrum SPF 30 Mineral Milk Sunscreen",
             "image": "",
             "price": "$36.00"
-        },
+        }
+    ],
+
+    "makeup": [
         {
             "id": 8,
             "name": "MAC Studio Radiance Face And Body Radiant Sheer Foundation",
@@ -90,7 +96,10 @@
             "name": "Morphe Continuous Setting Mist",
             "image": "",
             "price": "$22.00"
-        },
+        }
+    ],
+
+    "bath": [
         {
             "id": 16,
             "name": "Lipikar Wash AP+ Gentle Foaming Moisturizing Wash",
