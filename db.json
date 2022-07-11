@@ -2,8 +2,106 @@
     "products": [
         {
             "id": 1,
-            "name": "Rene Furterer Astera",
-            "image": ""
+            "name": "Rene Furterer Foritcea Shampoo",
+            "image": "",
+            "price": "$32.00"
+            
+        },
+        {
+            "id": 2,
+            "name": "Shu Uemura Ultimate Reset Conditioner",
+            "image": "",
+            "price": "$59.00"
+        },
+        {
+            "id": 3,
+            "name": "Shu Uemura Essence Absolue",
+            "image": "",
+            "price": "$69.00"
+        },
+        {
+            "id": 4,
+            "name": "Bioelements Recovery Serum",
+            "image": "",
+            "price": "$55.00"
+        },
+        {
+            "id": 5,
+            "name": "15% Vitamin C + Clean Caffeine Energy Serum",
+            "image": "",
+            "price": "$68.00"
+        },
+        {
+            "id": 6,
+            "name": "ICE Ceramide Moisturizing Cream",
+            "image": "",
+            "price": "$65.00"
+        },
+        {
+            "id": 7,
+            "name": "Summer Fridays ShadeDrops Broad Spectrum SPF 30 Mineral Milk Sunscreen",
+            "image": "",
+            "price": "$36.00"
+        },
+        {
+            "id": 8,
+            "name": "MAC Studio Radiance Face And Body Radiant Sheer Foundation",
+            "image": "",
+            "price": "$39.00"
+        },
+        {
+            "id": 9,
+            "name": "NARS Liquid Blush",
+            "image": "",
+            "price": "$30.00"
+        },
+        {
+            "id": 10,
+            "name": "Anastasia Beverly Hills Cream Bronzer",
+            "image": "",
+            "price": "$35.00"
+        },
+        {
+            "id": 11,
+            "name": "Lancome Teint Idôle Ultra Wear All Over Concealer",
+            "image": "",
+            "price": "$29.00"
+        },
+        {
+            "id": 12,
+            "name": "Anastasia Beverly Hills Clear Brow Gel Lightweight Setter",
+            "image": "",
+            "price": "$22.00"
+        },
+        {
+            "id": 13,
+            "name": "Nars Climax Marscara",
+            "image": "",
+            "price": "$25.00"
+        },
+        {
+            "id": 14,
+            "name": "Fenty Killawatt Freestyle Highlighter",
+            "image": "",
+            "price": "$38.00"
+        },
+        {
+            "id": 15,
+            "name": "Morphe Continuous Setting Mist",
+            "image": "",
+            "price": "$22.00"
+        },
+        {
+            "id": 16,
+            "name": "Lipikar Wash AP+ Gentle Foaming Moisturizing Wash",
+            "image": "",
+            "price": "$15.99"
+        },
+        {
+            "id": 17,
+            "name": "Lipikar Balm AP+ Intense Repair Moisturizing Body & Face Cream",
+            "image": "",
+            "price": "$19.99"
         }
     ]
 }
