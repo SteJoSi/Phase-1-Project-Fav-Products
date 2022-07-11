@@ -10,13 +10,13 @@
         {
             "id": 2,
             "name": "Shu Uemura Ultimate Reset Conditioner",
-            "image": "",
+            "image": "https://www.sephora.com/productimages/sku/s2083269-main-zoom.jpg",
             "price": "$59.00"
         },
         {
             "id": 3,
             "name": "Shu Uemura Essence Absolue",
-            "image": "",
+            "image": "http://images.squarespace-cdn.com/content/v1/55a1aa79e4b0bb17f7af65c6/1621547814968-ESEJ0LK1B4H6KT70N4Z8/essence-absolue.jpg",
             "price": "$69.00"
         }
     ],
@@ -25,25 +25,25 @@
         {
             "id": 4,
             "name": "Bioelements Recovery Serum",
-            "image": "",
+            "image": "https://cdn.shopify.com/s/files/1/0113/0899/0522/products/1ozRecoverySerum_3a0e4657-0540-47f3-8b80-6cd54d632c62_600x.jpg?v=1584614499",
             "price": "$55.00"
         },
         {
             "id": 5,
             "name": "15% Vitamin C + Clean Caffeine Energy Serum",
-            "image": "",
+            "image": "https://www.sephora.com/productimages/sku/s2403335-main-zoom.jpg?imwidth=315",
             "price": "$68.00"
         },
         {
             "id": 6,
             "name": "ICE Ceramide Moisturizing Cream",
-            "image": "",
+            "image": "https://www.sephora.com/productimages/sku/s2266260-main-zoom.jpg?imwidth=315",
             "price": "$65.00"
         },
         {
             "id": 7,
             "name": "Summer Fridays ShadeDrops Broad Spectrum SPF 30 Mineral Milk Sunscreen",
-            "image": "",
+            "image": "https://static.thcdn.com/images/large/original//productimg/1600/1600/13836366-1664963571129361.jpg",
             "price": "$36.00"
         }
     ],
@@ -52,49 +52,49 @@
         {
             "id": 8,
             "name": "MAC Studio Radiance Face And Body Radiant Sheer Foundation",
-            "image": "",
+            "image": "https://www.maccosmetics.com/media/export/cms/products/640x600/mac_sku_SMXT16_640x600_0.jpg",
             "price": "$39.00"
         },
         {
             "id": 9,
             "name": "NARS Liquid Blush",
-            "image": "",
+            "image": "https://www.narscosmetics.com/on/demandware.static/-/Sites-itemmaster_NARS/default/dw0d1511b2/2022/January/Updated_PDPS/Liquid_Blush/0607845051558_1.jpg",
             "price": "$30.00"
         },
         {
             "id": 10,
             "name": "Anastasia Beverly Hills Cream Bronzer",
-            "image": "",
+            "image": "https://www.anastasiabeverlyhills.com/on/demandware.static/-/Sites-anastasia-master-catalog/default/dwd2cf9a35/images/products/2021/070521_SummerLaunch/ABH_060122_SummerLaunch_CreamBronzer_WarmTan_WEB-Standard_Open_Hero_optimized.jpg",
             "price": "$35.00"
         },
         {
             "id": 11,
             "name": "Lancome Teint Idôle Ultra Wear All Over Concealer",
-            "image": "",
+            "image": "https://www.lancome-usa.com/on/demandware.static/-/Sites-lancome-us-master-catalog/default/dwee668093/3614273074612_TIU_AOC_350BisqueC_PackshotWithApplicator_1000x1000.jpg",
             "price": "$29.00"
         },
         {
             "id": 12,
             "name": "Anastasia Beverly Hills Clear Brow Gel Lightweight Setter",
-            "image": "",
+            "image": "https://m.media-amazon.com/images/I/41TFUPpCw7S._SL1376_.jpg",
             "price": "$22.00"
         },
         {
             "id": 13,
             "name": "Nars Climax Marscara",
-            "image": "",
+            "image": "https://www.narscosmetics.com/on/demandware.static/-/Sites-itemmaster_NARS/default/dw8ebed992/hi-res/0607845070085.jpg",
             "price": "$25.00"
         },
         {
             "id": 14,
             "name": "Fenty Killawatt Freestyle Highlighter",
-            "image": "",
+            "image": "https://m.hng.io/catalog/product/7/3/739705_MO_HUNNY_AFTRNN_SNK_1_2.jpg?io=PDP",
             "price": "$38.00"
         },
         {
             "id": 15,
             "name": "Morphe Continuous Setting Mist",
-            "image": "",
+            "image": "https://cdn.shopify.com/s/files/1/0737/8455/products/Morphe_JumboCSM_Closed_PDP_1400x.jpg?v=1646256824",
             "price": "$22.00"
         }
     ],
@@ -103,13 +103,13 @@
         {
             "id": 16,
             "name": "Lipikar Wash AP+ Gentle Foaming Moisturizing Wash",
-            "image": "",
+            "image": "https://media.allure.com/photos/5aafec3956bb3c0877194771/master/pass/la-roche.jpg",
             "price": "$15.99"
         },
         {
             "id": 17,
             "name": "Lipikar Balm AP+ Intense Repair Moisturizing Body & Face Cream",
-            "image": "",
+            "image": "https://pics.drugstore.com/prodimg/604659/450.jpg",
             "price": "$19.99"
         }
     ]
