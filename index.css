@@ -25,9 +25,16 @@ ul {
 
 .navright {
     float: right;
-    padding: 14px 16px;
+    padding: 14px 16px 20px;
     font-family: copperplate;
     font-size: 18px;
     color: black
 }
 
+#skin-products {
+    padding: 20px 16px 20px 5px;
+    margin: 40px;
+    font-family: copperplate;
+    font-size: 18px;
+    color: black
+}
