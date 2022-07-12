@@ -1,3 +1,5 @@
+//This all feels long and repetitive and i feel it in my gut there is a simplified way to do this so it reads better. That's why i was messing with the index.html. This was the only way known to myself to get the products from the db.json file to the html page. So far, I have the BUY button to click and create an alert. But that is all as far as event listeners. It also helped me to just write everything out like this and then go about making it simplified. I am also in the works to try to figure out how to make the button event listener its' own function to be applied to each buy button. 
+
 document.addEventListener("DOMContentLoaded", () => {
     console.log("All Content Loaded")  
     getHairProducts()
@@ -155,18 +157,3 @@ function renderBathProduct(bath) {
     bathCollection.append(div)
 }
 
-// function buyButton() {}
-
-// function alertMessage(mes) {
-//     const mes = ("Your item has been added to the cart!")
-// }
-
-//click and alert for buy button
-//document.querySelectorAll('.buy-btn').addEventListener('click', alertMessage())
-
-//function buyAlert() {
-    // const alert = document.querySelectorAll('.buy-btn')
-    // console.log('alert', alert)
-    //alert.addEventListener
-// }
-// buyAlert() 
