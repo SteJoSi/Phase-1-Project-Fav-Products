@@ -135,7 +135,18 @@ function renderBathProduct(bath) {
     bathCollection.append(div)
 }
 
-//click alert for buy button
-function buyAlert() {
-    document.querySelectorAll
+function alertMessage(mes) {
+    const mes = ("Your item has been added to the cart!")
 }
+
+//click and alert for buy button
+// document.querySelectorAll('.buy-btn').addEventListener('click', () => {
+//     if (event.target = '.buy-btn')
+// })
+
+//function buyAlert() {
+    // const alert = document.querySelectorAll('.buy-btn')
+    // console.log('alert', alert)
+    //alert.addEventListener
+// }
+// buyAlert() 
