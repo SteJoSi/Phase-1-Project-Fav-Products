@@ -99,6 +99,11 @@ function renderBeautyProduct(makeup) {
     const buyButton = document.createElement('button')
     buyButton.classList.add('buy-btn')
     buyButton.innerText = "BUY"
+    buyButton.addEventListener('click', (event) => {
+        event.preventDefault()
+        alert("Your item has been added to the cart!");
+        // console.log('alert', alert)
+    })
 
     div.append(h2, img, h3, favButton, buyButton)
     makeupCollection.append(div)
@@ -133,7 +138,7 @@ function renderBathProduct(bath) {
     buyButton.addEventListener('click', (event) => {
         event.preventDefault()
         alert("Your item has been added to the cart!");
-        console.log('alert', alert)
+        // console.log('alert', alert)
     })
 
     div.append(h2, img, h3, favButton, buyButton)
