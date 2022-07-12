@@ -130,19 +130,24 @@ function renderBathProduct(bath) {
     const buyButton = document.createElement('button')
     buyButton.classList.add('buy-btn')
     buyButton.innerText = "BUY"
+    buyButton.addEventListener('click', (event) => {
+        event.preventDefault()
+        alert("Your item has been added to the cart!");
+        console.log('alert', alert)
+    })
 
     div.append(h2, img, h3, favButton, buyButton)
     bathCollection.append(div)
 }
 
-function alertMessage(mes) {
-    const mes = ("Your item has been added to the cart!")
-}
+// function buyButton() {}
+
+// function alertMessage(mes) {
+//     const mes = ("Your item has been added to the cart!")
+// }
 
 //click and alert for buy button
-// document.querySelectorAll('.buy-btn').addEventListener('click', () => {
-//     if (event.target = '.buy-btn')
-// })
+//document.querySelectorAll('.buy-btn').addEventListener('click', alertMessage())
 
 //function buyAlert() {
     // const alert = document.querySelectorAll('.buy-btn')
