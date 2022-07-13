@@ -4,19 +4,22 @@
             "id": 1,
             "name": "Rene Furterer Forticea Shampoo",
             "image": "https://static.thcdn.com/images/large/original//productimg/1600/1600/11843506-2414868195131341.jpg",
-            "price": "$32.00"
+            "price": "$32.00",
+            "type": "hair"
         },
         {
             "id": 2,
             "name": "Shu Uemura Ultimate Reset Conditioner",
             "image": "https://www.sephora.com/productimages/sku/s2083269-main-zoom.jpg",
-            "price": "$59.00"
+            "price": "$59.00",
+            "type": "hair"
         },
         {
             "id": 3,
             "name": "Shu Uemura Essence Absolue",
             "image": "http://images.squarespace-cdn.com/content/v1/55a1aa79e4b0bb17f7af65c6/1621547814968-ESEJ0LK1B4H6KT70N4Z8/essence-absolue.jpg",
-            "price": "$69.00"
+            "price": "$69.00",
+            "type": "hair"
         }
     ],
 
