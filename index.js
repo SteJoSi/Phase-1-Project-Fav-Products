@@ -6,6 +6,13 @@ document.addEventListener("DOMContentLoaded", () => {
     // getBathProducts()
 })
 
+//fetch request to access db.json
+function getProducts() {
+    fetch(' http://localhost:3000/products')
+    .then(response => response.json())
+    .then(data => console.log(data))
+}
+getProducts()
 
 //gets all hair products 
 // function getHairProducts() {
