@@ -1,159 +1,157 @@
-//This all feels long and repetitive and i feel it in my gut there is a simplified way to do this so it reads better. That's why i was messing with the index.html. This was the only way known to myself to get the products from the db.json file to the html page. So far, I have the BUY button to click and create an alert. But that is all as far as event listeners. It also helped me to just write everything out like this and then go about making it simplified. I am also in the works to try to figure out how to make the button event listener its' own function to be applied to each buy button. 
-
 document.addEventListener("DOMContentLoaded", () => {
     console.log("All Content Loaded")  
-    getHairProducts()
-    getSkinProducts()
-    getBeautyProducts()
-    getBathProducts()
+    // getHairProducts()
+    // getSkinProducts()
+    // getBeautyProducts()
+    // getBathProducts()
 })
 
 
 //gets all hair products 
-function getHairProducts() {
-    fetch('http://localhost:3000/hair')
-    .then(response => response.json())
-    //.then(hairData => console.log(hairData))
-    .then(response => response.forEach(hairProduct => {renderHairProduct(hairProduct)}))
-}
+// function getHairProducts() {
+//     fetch('http://localhost:3000/hair')
+//     .then(response => response.json())
+//     //.then(hairData => console.log(hairData))
+//     .then(response => response.forEach(hairProduct => {renderHairProduct(hairProduct)}))
+// }
 
 
 
-//creates a card for each hair product
-function renderHairProduct(hair) {
-    const hairCollection = document.querySelector('#hair-products')
-    const div = document.createElement('div')
-    div.classList.add('card')
-    const h2 = document.createElement('h2')
-    h2.innerText = hair.name
-    //console.log('product', hair.name)
-    const img = document.createElement('img')
-    img.src = hair.image
-    img.classList.add('product-pic')
-    const h3 = document.createElement('h3')
-    h3.innerText = hair.price
-    const favButton = document.createElement('button')
-    favButton.classList.add('fav-btn')
-    favButton.innerText = "Add to Favorites"
-    const buyButton = document.createElement('button')
-    buyButton.classList.add('buy-btn')
-    buyButton.innerText = "BUY"
-    buyButton.addEventListener('click', (event) => {
-        event.preventDefault()
-        alert("Your item has been added to the cart!");
-        // console.log('alert', alert)
-    })
+// //creates a card for each hair product
+// function renderHairProduct(hair) {
+//     const hairCollection = document.querySelector('#hair-products')
+//     const div = document.createElement('div')
+//     div.classList.add('card')
+//     const h2 = document.createElement('h2')
+//     h2.innerText = hair.name
+//     //console.log('product', hair.name)
+//     const img = document.createElement('img')
+//     img.src = hair.image
+//     img.classList.add('product-pic')
+//     const h3 = document.createElement('h3')
+//     h3.innerText = hair.price
+//     const favButton = document.createElement('button')
+//     favButton.classList.add('fav-btn')
+//     favButton.innerText = "Add to Favorites"
+//     const buyButton = document.createElement('button')
+//     buyButton.classList.add('buy-btn')
+//     buyButton.innerText = "BUY"
+//     buyButton.addEventListener('click', (event) => {
+//         event.preventDefault()
+//         alert("Your item has been added to the cart!");
+//         // console.log('alert', alert)
+//     })
 
-    div.append(h2, img, h3, favButton, buyButton)
-    hairCollection.append(div)
-}
-//renderHairProuduct()
+//     div.append(h2, img, h3, favButton, buyButton)
+//     hairCollection.append(div)
+// }
+// //renderHairProuduct()
 
-//gets all skin care products 
-function getSkinProducts() {
-    fetch('http://localhost:3000/skin')
-    .then(response => response.json())
-    //.then(skinData => console.log(skinData))
-    .then(response => response.forEach(skinProduct => {renderSkinProduct(skinProduct)}))
-}
+// //gets all skin care products 
+// function getSkinProducts() {
+//     fetch('http://localhost:3000/skin')
+//     .then(response => response.json())
+//     //.then(skinData => console.log(skinData))
+//     .then(response => response.forEach(skinProduct => {renderSkinProduct(skinProduct)}))
+// }
 
-function renderSkinProduct(skin) {
-    const skinCollection = document.querySelector('#skin-products')
-    const div = document.createElement('div')
-    div.classList.add('card')
-    const h2 = document.createElement('h2')
-    h2.innerText = skin.name
-    //console.log('product', hair.name)
-    const img = document.createElement('img')
-    img.src = skin.image
-    img.classList.add('product-pic')
-    const h3 = document.createElement('h3')
-    h3.innerText = skin.price
-    const favButton = document.createElement('button')
-    favButton.classList.add('fav-btn')
-    favButton.innerText = "Add to Favorites"
-    const buyButton = document.createElement('button')
-    buyButton.classList.add('buy-btn')
-    buyButton.innerText = "BUY"
-    buyButton.addEventListener('click', (event) => {
-        event.preventDefault()
-        alert("Your item has been added to the cart!");
-        // console.log('alert', alert)
-    })
+// function renderSkinProduct(skin) {
+//     const skinCollection = document.querySelector('#skin-products')
+//     const div = document.createElement('div')
+//     div.classList.add('card')
+//     const h2 = document.createElement('h2')
+//     h2.innerText = skin.name
+//     //console.log('product', hair.name)
+//     const img = document.createElement('img')
+//     img.src = skin.image
+//     img.classList.add('product-pic')
+//     const h3 = document.createElement('h3')
+//     h3.innerText = skin.price
+//     const favButton = document.createElement('button')
+//     favButton.classList.add('fav-btn')
+//     favButton.innerText = "Add to Favorites"
+//     const buyButton = document.createElement('button')
+//     buyButton.classList.add('buy-btn')
+//     buyButton.innerText = "BUY"
+//     buyButton.addEventListener('click', (event) => {
+//         event.preventDefault()
+//         alert("Your item has been added to the cart!");
+//         // console.log('alert', alert)
+//     })
 
-    div.append(h2, img, h3, favButton, buyButton)
-    skinCollection.append(div)
-}
+//     div.append(h2, img, h3, favButton, buyButton)
+//     skinCollection.append(div)
+// }
 
-//gets all makeup products 
-function getBeautyProducts() {
-    fetch('http://localhost:3000/makeup')
-    .then(response => response.json())
-    //.then(beautyData => console.log(beautyData))
-    .then(response => response.forEach(beautyProduct => {renderBeautyProduct(beautyProduct)}))
-}
+// //gets all makeup products 
+// function getBeautyProducts() {
+//     fetch('http://localhost:3000/makeup')
+//     .then(response => response.json())
+//     //.then(beautyData => console.log(beautyData))
+//     .then(response => response.forEach(beautyProduct => {renderBeautyProduct(beautyProduct)}))
+// }
 
-function renderBeautyProduct(makeup) {
-    const makeupCollection = document.querySelector('#beauty-products')
-    const div = document.createElement('div')
-    div.classList.add('card')
-    const h2 = document.createElement('h2')
-    h2.innerText = makeup.name
-    //console.log('product', hair.name)
-    const img = document.createElement('img')
-    img.src = makeup.image
-    img.classList.add('product-pic')
-    const h3 = document.createElement('h3')
-    h3.innerText = makeup.price
-    const favButton = document.createElement('button')
-    favButton.classList.add('fav-btn')
-    favButton.innerText = "Add to Favorites"
-    const buyButton = document.createElement('button')
-    buyButton.classList.add('buy-btn')
-    buyButton.innerText = "BUY"
-    buyButton.addEventListener('click', (event) => {
-        event.preventDefault()
-        alert("Your item has been added to the cart!");
-        // console.log('alert', alert)
-    })
+// function renderBeautyProduct(makeup) {
+//     const makeupCollection = document.querySelector('#beauty-products')
+//     const div = document.createElement('div')
+//     div.classList.add('card')
+//     const h2 = document.createElement('h2')
+//     h2.innerText = makeup.name
+//     //console.log('product', hair.name)
+//     const img = document.createElement('img')
+//     img.src = makeup.image
+//     img.classList.add('product-pic')
+//     const h3 = document.createElement('h3')
+//     h3.innerText = makeup.price
+//     const favButton = document.createElement('button')
+//     favButton.classList.add('fav-btn')
+//     favButton.innerText = "Add to Favorites"
+//     const buyButton = document.createElement('button')
+//     buyButton.classList.add('buy-btn')
+//     buyButton.innerText = "BUY"
+//     buyButton.addEventListener('click', (event) => {
+//         event.preventDefault()
+//         alert("Your item has been added to the cart!");
+//         // console.log('alert', alert)
+//     })
 
-    div.append(h2, img, h3, favButton, buyButton)
-    makeupCollection.append(div)
-}
+//     div.append(h2, img, h3, favButton, buyButton)
+//     makeupCollection.append(div)
+// }
 
-//gets all bath products 
-function getBathProducts() {
-    fetch('http://localhost:3000/bath')
-    .then(response => response.json())
-    //.then(bathData => console.log(bathData))
-    .then(response => response.forEach(bathProduct => {renderBathProduct(bathProduct)}))
-}
+// //gets all bath products 
+// function getBathProducts() {
+//     fetch('http://localhost:3000/bath')
+//     .then(response => response.json())
+//     //.then(bathData => console.log(bathData))
+//     .then(response => response.forEach(bathProduct => {renderBathProduct(bathProduct)}))
+// }
 
-function renderBathProduct(bath) {
-    const bathCollection = document.querySelector('#bath-products')
-    const div = document.createElement('div')
-    div.classList.add('card')
-    const h2 = document.createElement('h2')
-    h2.innerText = bath.name
-    //console.log('product', hair.name)
-    const img = document.createElement('img')
-    img.src = bath.image
-    img.classList.add('product-pic')
-    const h3 = document.createElement('h3')
-    h3.innerText = bath.price
-    const favButton = document.createElement('button')
-    favButton.classList.add('fav-btn')
-    favButton.innerText = "Add to Favorites"
-    const buyButton = document.createElement('button')
-    buyButton.classList.add('buy-btn')
-    buyButton.innerText = "BUY"
-    buyButton.addEventListener('click', (event) => {
-        event.preventDefault()
-        alert("Your item has been added to the cart!");
-        // console.log('alert', alert)
-    })
+// function renderBathProduct(bath) {
+//     const bathCollection = document.querySelector('#bath-products')
+//     const div = document.createElement('div')
+//     div.classList.add('card')
+//     const h2 = document.createElement('h2')
+//     h2.innerText = bath.name
+//     //console.log('product', hair.name)
+//     const img = document.createElement('img')
+//     img.src = bath.image
+//     img.classList.add('product-pic')
+//     const h3 = document.createElement('h3')
+//     h3.innerText = bath.price
+//     const favButton = document.createElement('button')
+//     favButton.classList.add('fav-btn')
+//     favButton.innerText = "Add to Favorites"
+//     const buyButton = document.createElement('button')
+//     buyButton.classList.add('buy-btn')
+//     buyButton.innerText = "BUY"
+//     buyButton.addEventListener('click', (event) => {
+//         event.preventDefault()
+//         alert("Your item has been added to the cart!");
+//         // console.log('alert', alert)
+//     })
 
-    div.append(h2, img, h3, favButton, buyButton)
-    bathCollection.append(div)
-}
+//     div.append(h2, img, h3, favButton, buyButton)
+//     bathCollection.append(div)
+// }
 
