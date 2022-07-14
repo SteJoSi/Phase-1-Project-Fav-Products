@@ -14,7 +14,8 @@ For MAC users, type `open index.html` into your terminal and for Windows users, 
 I will happily accept: 
     * Recommendations on new features
     * Reporting any issues
-    
-Please make sure to update tests as appropriate. 
+
+Please make sure to update tests as appropriate.
+ 
 ## License
 MIT

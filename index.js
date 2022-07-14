@@ -11,12 +11,12 @@ function getProducts() {
     fetch(' http://localhost:3000/products')
     .then(response => response.json())
     //.then(data => console.log(data))
-    .then(response => response.forEach(product => {renderProducts(product)}))
+    .then(response => response.forEach(product => {renderProduct(product)}))
 }
 getProducts()
 
 //create function to render products 
-function renderProducts(product) {
+function renderProduct(product) {
     //const productCollection = document.getElementsByClassName('.section')
     //console.log('product', productCollection)
     const div = document.createElement('div')
@@ -35,13 +35,25 @@ function renderProducts(product) {
     const buyButton = document.createElement('button')
     buyButton.classList.add('buy-btn')
     buyButton.innerText = "BUY"
-
     buyButton.addEventListener('click', (event) => {
         event.preventDefault()
         alert("Your item has been added to the cart!");
         // console.log('alert', alert)
     })
+    div.append(h2, img, h3, favButton, buyButton)
 
-//     div.append(h2, img, h3, favButton, buyButton)
-//     productCollection.append(div)
+    if(product.type === 'hair') {
+        const hair = document.querySelector('.hair-container')
+        hair.append(div) 
+    } else if (product.type === 'skin') {
+        const skin = document.querySelector('.skin-container')
+        skin.append(div)
+    } else if (product.type === 'beauty') {
+        const beauty = document.querySelector('.beauty-container')
+        beauty.append(div)
+    } else if (product.type === 'bath') {
+        const bath = document.querySelector('.bath-container')
+        bath.append(div)
+    }  
 }
+// add class to description
