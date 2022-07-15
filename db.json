@@ -77,42 +77,48 @@
             "name": "Anastasia Beverly Hills Cream Bronzer",
             "image": "https://www.anastasiabeverlyhills.com/on/demandware.static/-/Sites-anastasia-master-catalog/default/dwd2cf9a35/images/products/2021/070521_SummerLaunch/ABH_060122_SummerLaunch_CreamBronzer_WarmTan_WEB-Standard_Open_Hero_optimized.jpg",
             "price": "$35.00",
-            "type": "beauty"
+            "type": "beauty",
+            "description": "A weightless cream formula that warms up skin for sun-kissed, dimensional color."
         },
         {
             "id": 11,
             "name": "Lancome Teint Idôle Ultra Wear All Over Concealer",
             "image": "https://www.lancome-usa.com/on/demandware.static/-/Sites-lancome-us-master-catalog/default/dwee668093/3614273074612_TIU_AOC_350BisqueC_PackshotWithApplicator_1000x1000.jpg",
             "price": "$29.00",
-            "type": "beauty"
+            "type": "beauty",
+            "description": "A hydrating, lightweight, full coverage concealer that brightens dark under eyes and covers imperfections without creasing or caking."
         },
         {
             "id": 12,
             "name": "Anastasia Beverly Hills Clear Brow Gel Lightweight Setter",
             "image": "https://m.media-amazon.com/images/I/41TFUPpCw7S._SL1376_.jpg",
             "price": "$22.00",
-            "type": "beauty"
+            "type": "beauty",
+            "description": "A lightweight clear brow gel that sets color and holds brow hair in place for a clean, polished look."
         },
         {
             "id": 13,
             "name": "Nars Climax Marscara",
             "image": "https://www.narscosmetics.com/on/demandware.static/-/Sites-itemmaster_NARS/default/dw8ebed992/hi-res/0607845070085.jpg",
             "price": "$25.00",
-            "type": "beauty"
+            "type": "beauty",
+            "description": "An innovative mascara that delivers buildable volume and intense black color in a lightweight, flexible formula without clumping or smudging."
         },
         {
             "id": 14,
             "name": "Fenty Killawatt Freestyle Highlighter",
             "image": "https://m.hng.io/catalog/product/7/3/739705_MO_HUNNY_AFTRNN_SNK_1_2.jpg?io=PDP",
             "price": "$38.00",
-            "type": "beauty"
+            "type": "beauty",
+            "description": "A lightweight, longwear cream-powder hybrid highlighter."
         },
         {
             "id": 15,
             "name": "Morphe Continuous Setting Mist",
             "image": "https://cdn.shopify.com/s/files/1/0737/8455/products/Morphe_JumboCSM_Closed_PDP_1400x.jpg?v=1646256824",
             "price": "$22.00",
-            "type": "beauty"
+            "type": "beauty",
+            "description": "Delivers even application to set liquid or powder makeup with a radiant finish."
         },
         {
             "id": 16,
