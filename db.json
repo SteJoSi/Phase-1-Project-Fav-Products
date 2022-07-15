@@ -6,7 +6,7 @@
             "image": "https://static.thcdn.com/images/large/original//productimg/1600/1600/11843506-2414868195131341.jpg",
             "price": "$32.00",
             "type": "hair",
-            "description": "An astringent shampoo with little beads that melt when you use it."
+            "description": "A fortifying daily-use shampoo formulated to energize the scalp and strengthen hair from roots to ends."
         },
         {
             "id": 2,
@@ -14,7 +14,7 @@
             "image": "https://www.sephora.com/productimages/sku/s2083269-main-zoom.jpg",
             "price": "$59.00",
             "type": "hair",
-            "description": "A protein and moisture rich conditioner. Uses rice extract as their protein ingredient."
+            "description": "Repairs and restores very damaged hair with the use of Japanese sourced rice extract. Helps nourish and protect hair from the inside out."
         },
         {
             "id": 3,
@@ -22,49 +22,55 @@
             "image": "http://images.squarespace-cdn.com/content/v1/55a1aa79e4b0bb17f7af65c6/1621547814968-ESEJ0LK1B4H6KT70N4Z8/essence-absolue.jpg",
             "price": "$69.00",
             "type": "hair",
-            "description": "A nourishing and protective lightweight serum made from camellia oil."
+            "description": "A nourishing and protective lightweight oil made from camellia oil that helps add softness and shine to the hair."
         },
         {
             "id": 4,
             "name": "Bioelements Recovery Serum",
             "image": "https://cdn.shopify.com/s/files/1/0113/0899/0522/products/1ozRecoverySerum_3a0e4657-0540-47f3-8b80-6cd54d632c62_600x.jpg?v=1584614499",
             "price": "$55.00",
-            "type": "skin"
+            "type": "skin",
+            "description": "A moisture-sealing serum with ultra-smoothing ceramides and emollients for skin that's dry, visibly aging, over-exfoliated."
         },
         {
             "id": 5,
             "name": "15% Vitamin C + Clean Caffeine Energy Serum",
             "image": "https://www.sephora.com/productimages/sku/s2403335-main-zoom.jpg?imwidth=315",
             "price": "$68.00",
-            "type": "skin"
+            "type": "skin",
+            "description": "A lightweight serum to visibly brighten skin, reduce hyperpigmentation, even tone, firm skin and depuff."
         },
         {
             "id": 6,
             "name": "ICE Ceramide Moisturizing Cream",
             "image": "https://www.sephora.com/productimages/sku/s2266260-main-zoom.jpg?imwidth=315",
             "price": "$65.00",
-            "type": "skin"
+            "type": "skin",
+            "description": "Ceramide-enriched moisturizer replenishes the skin with lasting hydration and strengthens the skin’s natural moisture barrier against environmental stressors responsible for premature aging."
         },
         {
             "id": 7,
             "name": "Summer Fridays ShadeDrops Broad Spectrum SPF 30 Mineral Milk Sunscreen",
             "image": "https://static.thcdn.com/images/large/original//productimg/1600/1600/13836366-1664963571129361.jpg",
             "price": "$36.00",
-            "type": "skin"
+            "type": "skin",
+            "description": "A lightweight, reef-friendly, SPF 30 mineral sunscreen that helps shield skin from UV rays and leaves skin with a soft, natural-looking finish."
         },
         {
             "id": 8,
             "name": "MAC Studio Radiance Face And Body Radiant Sheer Foundation",
             "image": "https://www.maccosmetics.com/media/export/cms/products/640x600/mac_sku_SMXT16_640x600_0.jpg",
             "price": "$39.00",
-            "type": "beauty"
+            "type": "beauty",
+            "description": "An ultra-light, waterproof foundation that provides a sheer buildable veil of coverage with a natural, radiant glow."
         },
         {
             "id": 9,
             "name": "NARS Liquid Blush",
             "image": "https://www.narscosmetics.com/on/demandware.static/-/Sites-itemmaster_NARS/default/dw0d1511b2/2022/January/Updated_PDPS/Liquid_Blush/0607845051558_1.jpg",
             "price": "$30.00",
-            "type": "beauty"
+            "type": "beauty",
+            "description": "A high-pigmented, liquid blush that brings a flush of natural-looking color to all skin tones."
         },
         {
             "id": 10,
