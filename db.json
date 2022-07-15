@@ -125,14 +125,16 @@
             "name": "Lipikar Wash AP+ Gentle Foaming Moisturizing Wash",
             "image": "https://media.allure.com/photos/5aafec3956bb3c0877194771/master/pass/la-roche.jpg",
             "price": "$15.99",
-            "type": "bath"
+            "type": "bath",
+            "description": "A hydrating face cleanser and body wash that provides 24-hour hydration for dry skin."
         },
         {
             "id": 17,
             "name": "Lipikar Balm AP+ Intense Repair Moisturizing Body & Face Cream",
             "image": "https://pics.drugstore.com/prodimg/604659/450.jpg",
             "price": "$19.99",
-            "type": "bath"
+            "type": "bath",
+            "description": "Intensely hydrates to relieve dry and extra dry skin."
         }
     ]
 }
