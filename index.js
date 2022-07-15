@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 //fetch request to access db.json
 function getProducts() {
-    fetch(' http://localhost:3000/products')
+    fetch('http://localhost:3000/products')
     .then(response => response.json())
     //.then(data => console.log(data))
     .then(response => response.forEach(product => {renderProduct(product)}))
