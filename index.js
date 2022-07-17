@@ -1,9 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
     console.log("All Content Loaded")  
-    // getHairProducts()
-    // getSkinProducts()
-    // getBeautyProducts()
-    // getBathProducts()
 })
 
 //fetch request to access db.json
@@ -21,6 +17,8 @@ function renderProduct(product) {
     div.classList.add('card')
     const h2 = document.createElement('h2')
     h2.innerText = product.name
+    const p = document.createElement('p')
+    p.innerText = product.description
     const img = document.createElement('img')
     img.src = product.image
     img.classList.add('product-pic')
@@ -41,7 +39,7 @@ function renderProduct(product) {
             alert("Your item has been added to the cart!");
         })
 
-    div.append(h2, img, h3, favButton, buyButton)
+    div.append(h2, p, img, h3, favButton, buyButton)
 
     if(product.type === 'hair') {
         const hair = document.querySelector('.hair-container')
@@ -56,5 +54,24 @@ function renderProduct(product) {
         const bath = document.querySelector('.bath-container')
         bath.append(div)
     }  
+// mouseover event for description of product
+
+// const description = document.querySelector('.product-pic')
+     // console.log('description', description)
+// description.addEventListener("mouseover", e => {
+//     // console.log("mouse in")
+//     if(product.type = 'hair') {
+//         return product.description
+//     }
+// })
+    
 }
 // add class to description
+
+ // img.addEventListener("mouseover", e => {
+        //     // console.log("mouse in")
+        //     if(product.type === 'hair') {
+        //         let description = product.description
+
+        //     }
+        // })
