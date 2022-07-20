@@ -1,5 +1,5 @@
 body {
-    background-color: whitesmoke;
+    background-color: tan;
 }
 
 .topnav {
@@ -19,8 +19,8 @@ ul {
 .navbar {
     float: inline-start;
     font-family: fantasy;
-    font-size: 25px;
-    color: rosybrown;
+    font-size: 30px;
+    color: whitesmoke;
     padding: 14px 16px;
 }
 
@@ -32,37 +32,13 @@ ul {
     color: black;
 }
 
+h1 {
 
-#hair-products {
-    padding: 30px 16px 0px 5px;
-    margin: 40px;
+    padding: 60px 0px 0px 0px;
+    margin: 30px;
     font-family: copperplate;
-    font-size: 18px;
-    color: black
-}
-
-#skin-products {
-    padding: 20px 16px 0px 5px;
-    margin: 40px;
-    font-family: copperplate;
-    font-size: 18px;
-    color: black
-}
-
-#beauty-products {
-    padding: 30px 16px 0px 5px;
-    margin: 40px;
-    font-family: copperplate;
-    font-size: 18px;
-    color: black
-}
-
-#bath-products {
-    padding: 30px 16px 0px 5px;
-    margin: 40px;
-    font-family: copperplate;
-    font-size: 18px;
-    color: black
+    font-size: 40px;
+    color: saddlebrown;
 }
 
 .card {
@@ -74,9 +50,10 @@ ul {
     height: 500px;
     display: inline-grid;
     margin: 16px 32px;
-    background-color: rosybrown;
+    background-color: white;
     box-shadow: 3px 4px rosybrown;
     border: black solid 2px;
+    border-radius: 8px;
 }
 
 .product-pic {
@@ -87,12 +64,16 @@ ul {
 
 .fav-btn {
     font-family: copperplate;
-    color: rosybrown;
+    color: red;
+    border: 1px solid black;
+    border-radius: 8px;
 }
 
 .buy-btn {
     font-family: copperplate;
-    color: rosybrown;
+    color: black;
+    border: 1px solid black;
+    border-radius: 8px;
 }
 
 .description {
@@ -100,9 +81,20 @@ ul {
     display: none;
     font-size: medium;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: black;
+    color: saddlebrown;
 } 
 
 .displayed {
     display: block;
+    float: center;
+}
+
+/* h2 {
+    background-color: rosybrown;
+    font-family: copperplate;
+} */
+
+#footer {
+    background-color: rosybrown;
+
 }
