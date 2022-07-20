@@ -74,12 +74,35 @@ ul {
     height: 500px;
     display: inline-grid;
     margin: 16px 32px;
+    background-color: rosybrown;
     box-shadow: 3px 4px rosybrown;
-    border: black solid 3px;
+    border: black solid 2px;
 }
 
 .product-pic {
     justify-self: center;
     height: 192px;
     width: auto;
+}
+
+.fav-btn {
+    font-family: copperplate;
+    color: rosybrown;
+}
+
+.buy-btn {
+    font-family: copperplate;
+    color: rosybrown;
+}
+
+.description {
+
+    display: none;
+    font-size: medium;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+} 
+
+.displayed {
+    display: block;
 }

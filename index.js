@@ -18,6 +18,7 @@ function renderProduct(product) {
     const h2 = document.createElement('h2')
     h2.innerText = product.name
     const p = document.createElement('p')
+    p.classList.add('description')
     p.innerText = product.description
     const img = document.createElement('img')
     img.src = product.image
@@ -54,24 +55,22 @@ function renderProduct(product) {
         const bath = document.querySelector('.bath-container')
         bath.append(div)
     }  
+
 // mouseover event for description of product
+document.querySelectorAll('.card').forEach(card => {
+    card.addEventListener("mouseover", e => {
+        // console.log('event', e)
+        // console.log("mouse on")
+        const info = card.querySelector('.description')
+        
+        info.classList.add('displayed')
+    })
+    card.addEventListener("mouseleave", e => {
+        // console.log('event', e)
+        // console.log("mouse off")
+        const info = card.querySelector('.description')
 
-// const description = document.querySelector('.product-pic')
-     // console.log('description', description)
-// description.addEventListener("mouseover", e => {
-//     // console.log("mouse in")
-//     if(product.type = 'hair') {
-//         return product.description
-//     }
-// })
-    
+        info.classList.remove('displayed')
+    })
+})
 }
-// add class to description
-
- // img.addEventListener("mouseover", e => {
-        //     // console.log("mouse in")
-        //     if(product.type === 'hair') {
-        //         let description = product.description
-
-        //     }
-        // })
