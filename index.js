@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     console.log("All Content Loaded")  
+    getProducts()
 })
 
 //fetch request to access db.json
@@ -7,9 +8,12 @@ function getProducts() {
     fetch('http://localhost:3000/products')
     .then(response => response.json())
     //.then(data => console.log(data))
-    .then(response => response.forEach(product => {renderProduct(product)}))
+    .then(response => response.forEach(product => {renderProduct(product)
+        productInfoEvent()
+        }
+    ))
 }
-getProducts()
+
 
 //create function to render products 
 function renderProduct(product) {
@@ -56,21 +60,25 @@ function renderProduct(product) {
         bath.append(div)
     }  
 
-// mouseover event for description of product
-document.querySelectorAll('.card').forEach(card => {
-    card.addEventListener("mouseover", e => {
-        // console.log('event', e)
-        // console.log("mouse on")
-        const info = card.querySelector('.description')
-        
-        info.classList.add('displayed')
-    })
-    card.addEventListener("mouseleave", e => {
-        // console.log('event', e)
-        // console.log("mouse off")
-        const info = card.querySelector('.description')
-
-        info.classList.remove('displayed')
-    })
-})
 }
+
+//mouseover & mouseleave event listener to display product information when hovered
+function productInfoEvent() {
+    document.querySelectorAll('.card').forEach(card => {
+        card.addEventListener("mouseover", e => {
+            // console.log('event', e)
+            // console.log("mouse on")
+            const info = card.querySelector('.description')
+            
+            info.classList.add('displayed')
+        })
+        card.addEventListener("mouseleave", e => {
+            // console.log('event', e)
+            // console.log("mouse off")
+            const info = card.querySelector('.description')
+    
+            info.classList.remove('displayed')
+        })
+    })
+}
+

@@ -19,9 +19,10 @@ ul {
 .navbar {
     float: inline-start;
     font-family: fantasy;
-    font-size: 30px;
-    color: whitesmoke;
+    font-size: 50px;
+    color: wheat;
     padding: 14px 16px;
+    border: saddlebrown solid 2px;
 }
 
 .navright {
@@ -30,6 +31,10 @@ ul {
     font-family: copperplate;
     font-size: 18px;
     color: black;
+}
+
+.navright:hover {
+    color: wheat;
 }
 
 h1 {
@@ -51,8 +56,8 @@ h1 {
     display: inline-grid;
     margin: 16px 32px;
     background-color: white;
-    box-shadow: 3px 4px rosybrown;
-    border: black solid 2px;
+    box-shadow: 3px 4px wheat;
+    border: saddlebrown solid 2px;
     border-radius: 8px;
 }
 
@@ -67,6 +72,7 @@ h1 {
     color: red;
     border: 1px solid black;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .buy-btn {
@@ -74,6 +80,7 @@ h1 {
     color: black;
     border: 1px solid black;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .description {
@@ -89,12 +96,23 @@ h1 {
     float: center;
 }
 
-/* h2 {
-    background-color: rosybrown;
-    font-family: copperplate;
-} */
+.footer {
+        background: tan;
+        box-sizing: border-box;
+        width: 100%;
+        font: copperplate;
+        text-align: left;
+        padding: 30px 20px 40px;
+        overflow: hidden;
+        color: wheat;
+        font-size: 15px;
+        border: saddlebrown solid 2px;
+}
 
-#footer {
-    background-color: rosybrown;
+.email{
+    color: wheat
+}
 
+.email:hover {
+    color: saddlebrown;
 }
