@@ -7,9 +7,10 @@ document.addEventListener("DOMContentLoaded", () => {
 function getProducts() {
     fetch('http://localhost:3000/products')
     .then(response => response.json())
-    //.then(data => console.log(data))
+    // .then(data => console.log(data[2].name))
     .then(response => response.forEach(product => {renderProduct(product)
         productInfoEvent()
+        favoriteBtn()
         }
     ))
 }
@@ -32,10 +33,6 @@ function renderProduct(product) {
     const favButton = document.createElement('button')
     favButton.classList.add('fav-btn')
     favButton.innerText = "Add to Favorites"
-        favButton.addEventListener('click', (event) => {
-            event.preventDefault()
-            alert("Product added to favorite's list!");
-        })
     const buyButton = document.createElement('button')
     buyButton.classList.add('buy-btn')
     buyButton.innerText = "BUY"
@@ -58,8 +55,7 @@ function renderProduct(product) {
     } else if (product.type === 'bath') {
         const bath = document.querySelector('.bath-container')
         bath.append(div)
-    }  
-
+    } 
 }
 
 //mouseover & mouseleave event listener to display product information when hovered
@@ -81,4 +77,15 @@ function productInfoEvent() {
         })
     })
 }
+
+
+function favoriteBtn() {
+    document.querySelectorAll('.fav-btn').forEach(btn => {
+        btn.addEventListener('click', (event) => {
+            event.preventDefault()
+            btn.innerText = 'Item added to Favorites!'; 
+        })
+    })
+}
+
 

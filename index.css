@@ -83,6 +83,10 @@ h1 {
     cursor: pointer;
 }
 
+.buy-btn:hover {
+    background-color: saddlebrown;
+}
+
 .description {
 
     display: none;
@@ -101,8 +105,8 @@ h1 {
         box-sizing: border-box;
         width: 100%;
         font: copperplate;
-        text-align: left;
-        padding: 30px 20px 40px;
+        text-align: center;
+        padding: 30px 20px 30px;
         overflow: hidden;
         color: wheat;
         font-size: 15px;
@@ -116,3 +120,4 @@ h1 {
 .email:hover {
     color: saddlebrown;
 }
+
