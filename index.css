@@ -2,32 +2,30 @@ body {
     background-color: tan;
 }
 
-.topnav {
-    width: auto;
-    padding: 10px 10px;
-    margin: 20px;
-    
-}
-
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 20px;
+    padding: 10px 10px;
     display: inline;
 }
 
-.navbar {
-    float: inline-start;
-    font-family: fantasy;
-    font-size: 50px;
-    color: wheat;
-    padding: 14px 16px;
-    border: saddlebrown solid 2px;
+.header {
+    color: saddlebrown;
+    font-size: 80px;
+    letter-spacing: 30px;
+    text-align: center;
+    font-family: cursive;
+    width: auto;
+    padding: 0px 30px 0px 30px;
+    margin: 40px 0px 0px 0px;
+    border: 3px solid wheat;
+    box-sizing: border-box;
 }
 
 .navright {
     float: right;
     padding: 14px 16px 30px;
+    margin: 10px 5px 10px 5px;
     font-family: copperplate;
     font-size: 18px;
     color: black;
