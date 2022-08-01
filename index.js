@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     getProducts()
 })
 
-//fetch request to access db.json
+//fetch request to access db.json and to render all products on html
 function getProducts() {
     fetch('http://localhost:3000/products')
     .then(response => response.json())
@@ -16,7 +16,7 @@ function getProducts() {
 }
 
 
-//create function to render products 
+//creates the container that holds all of the product information
 function renderProduct(product) {
     const div = document.createElement('div')
     div.classList.add('card')
@@ -43,6 +43,7 @@ function renderProduct(product) {
 
     div.append(h2, p, img, h3, favButton, buyButton)
 
+//separates each product by the coorisponding 'type' and appends it to the matching container
     if(product.type === 'hair') {
         const hair = document.querySelector('.hair-container')
         hair.append(div) 
@@ -65,6 +66,7 @@ function productInfoEvent() {
             // console.log('event', e)
             // console.log("mouse on")
             const info = card.querySelector('.description')
+            console.log(card)
             
             info.classList.add('displayed')
         })
@@ -78,7 +80,7 @@ function productInfoEvent() {
     })
 }
 
-
+//changes the favorites button when clicked to add it to the favorites list
 function favoriteBtn() {
     document.querySelectorAll('.fav-btn').forEach(btn => {
         btn.addEventListener('click', (event) => {
